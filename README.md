@@ -15,7 +15,6 @@ Traditional approaches to stock market analysis and stock price prediction inclu
 * Developing a Model using LSTM( Type of Recurrent Neural Network)
 * Developing a Deployment file (app.py) using Streamlit
 * Deploying our model on Website 
-* 
 
 ### Need for this Model
 Stock market price prediction is a difficult undertaking that generally requires a lot of human-computer interaction. Traditional batch processing methods cannot be used effectively for stock market analysis due to the linked nature of stock prices. We present an online learning technique that employs a recurrent neural network of some sort (RNN) called Long Short Term Memory (LSTM), which uses stochastic gradient descent to update the weights for individual data points. When compared to existing stock price prediction systems, this will yield more accurate results. With varying sizes of data, the network is trained and evaluated for accuracy, and the results are tallied. A comparison with respect to accuracy is then performed against an Artificial Neural Network
@@ -26,13 +25,21 @@ Stock market price prediction is a difficult undertaking that generally requires
 This is the interface of the website deployed on Streamlit platform. User can select any stock of his choice from the list of options. After selection of the stock it takes a couple of seconds to capture the latest price with the help of yfinance library.
 
 
+
+
 ![Screenshot (1009)](https://user-images.githubusercontent.com/69635604/125208680-9f062180-e2b1-11eb-903c-3b4cd2bf4f32.png)
+
+
 
 
 After capturing the price of that stock it runs the LSTM Model in the backend and make prediction based on batch size and epochs that we have considered in our code. Prediction usually takes upto 2-3 mins. Prediction are made for the next 10 days only (considering the high volatility of Stock Market)
 
 
+
+
 ![Screenshot (1008)](https://user-images.githubusercontent.com/69635604/125208681-a2011200-e2b1-11eb-9585-be4936915e5c.png)
+
+
 
 
 ### Future Work
