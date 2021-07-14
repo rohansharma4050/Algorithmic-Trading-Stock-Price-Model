@@ -48,5 +48,10 @@ Stock markets  are  hard  to  monitor  and  require  plenty  of context when try
 An  analysis  of  the  results  also  indicates  that model gives better accuracy when the size of the dataset increases. With  more  data,  more  patterns  can  be  fleshed  out  by  the model, and the weights of the layers can be better adjusted. At its  core,  the  stock  market  is  a  reflection  of  human emotions.  Pure number crunching and analysis  have  their limitations; a possible extension of this stock prediction system would be to augment it with a news feed analysis from social media platforms such as Twitter,where emotions are gauged from the articles. This sentiment analysis can be linked with the LSTM to better train weights and further improve accuracy. 
 
 
+### Demo
+
+[Click here for DALAL STREET- STOCK ANALYZER](https://share.streamlit.io/rohansharma4050/algorithmic-trading-stock-price-model/main/app.py)
+
+
 
 
